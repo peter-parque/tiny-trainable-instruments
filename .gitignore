@@ -34,8 +34,7 @@
 __pycache__/
 env/
 
-# TensorFlow training of Instrument2
-# TODO: check that this list is ok
+# TensorFlow
 dataset/
 logs/
 models/

@@ -44,7 +44,7 @@ Tools > Manage Libraries... >
 
 ![Arduino Manage Libraries](../docs/images/1-arduino-manage-libraries.png "Arduino Manage Libraries")
 
-Next, go to and install the custom library for this project, called `TinyTrainable`. This installation will give you the option to also install its dependencies, select `Install all` to additionally download these libraries:
+Next, search for `TinyTrainable` library for this project.This installation will give you the option to also install its dependencies, select `Install all` to additionally download these libraries:
 
 * Libraries for using the embedded sensors of our microcontroller:
     * `Arduino_APDS9960`: color, proximity
@@ -52,8 +52,15 @@ Next, go to and install the custom library for this project, called `TinyTrainab
 * Libraries for machine learning:
     * `Arduino_KNN`: k-nearest neighbor algorithm.
     * `Arduino_TensorFlowLite`: microcontroller version of the TensorFlow machine learning library. Please download the latest non-precompiled version.
+* Libraries for multimedia output:
+    * `Adafruit GFX Library`: for output with screen.
+    * `Adafruit SSD1306`: for output with screen.
+    * `Adafruit Thermal Printer Library`: for outputs with Adafruit Thermal Printer.
+    * `Servo`: output with servo motors.
 
-To test if all dependencies were installed successfully, plug in your Arduino, navigate to `File > Examples > TinyTrainable > hello_none`, then press the upload button to send the code to the Arduino (Note that this is the procedure for running all examples). After it's done compiling, you should see it light up and cycle between its LEDs.
+## Test Arduino installation
+
+To test if all dependencies were installed successfully, connect your Arduino to your computer with a USB cable, and navigate to `File > Examples > TinyTrainable > hello_none`, then press the upload button to send the code to the Arduino (Note that this is the procedure for running all examples). After it's done compiling, you should see it light up and cycle between its LEDs.
 
 If you still have questions about setting up the microcontroller, the full startup guide is available [here](https://www.arduino.cc/en/Guide/NANO33BLESense).
 
